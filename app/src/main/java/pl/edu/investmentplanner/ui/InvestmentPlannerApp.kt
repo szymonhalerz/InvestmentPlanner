@@ -2,7 +2,6 @@ package pl.edu.investmentplanner.ui
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.remember
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavType
@@ -37,10 +36,7 @@ fun InvestmentPlannerApp(viewModel: InvestmentViewModel = viewModel()) {
     }
 
     NavHost(navController = navController, startDestination = AppRoutes.HOME) {
-        composable(AppRoutes.HOME) {
-            val homeEntry = remember(navController) {
-                navController.getBackStackEntry(AppRoutes.HOME)
-            }
+        composable(AppRoutes.HOME) { homeEntry ->
             val message by homeEntry.savedStateHandle
                 .getStateFlow("dashboard_message", "")
                 .collectAsStateWithLifecycle()

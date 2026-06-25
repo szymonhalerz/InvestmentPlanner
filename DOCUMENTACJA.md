@@ -218,35 +218,51 @@ Dla przykładu 3000 zł miesięcznie przez 5 lat daje 180 000 zł. Profil zrówn
 
 ### Dashboard
 
+[Tutaj wstawić zrzut ekranu]
+
 Ekran startowy odpowiada na pięć pytań: ile wpłacić, ile już wpłacono, gdzie wpłacić teraz, jak idzie długoterminowy plan i który cel jest najważniejszy. Kolejne sekcje to „Ten miesiąc”, „Najbliższe działanie”, „Postęp długoterminowy”, „Wysoki priorytet” i „Narzędzia finansowe”.
 
 Sekcja miesięczna zawiera wykres słupkowy Canvas pokazujący wpłaconą i pozostałą część planu. Sekcja długoterminowa zawiera wykres donut Canvas wykorzystujący sumę wszystkich wpłat i wszystkich kwot docelowych. Dashboard pokazuje także, czy plan mieści się w budżecie profilu.
 
 ### Profil finansowy
 
+[Tutaj wstawić zrzut ekranu]
+
 Formularz pozwala zapisać dochód, wydatki, kwotę możliwą do inwestowania, sytuację życiową i profil ryzyka. Po zapisie aplikacja wraca na dashboard i pokazuje Snackbar.
 
 ### Cele
+
+[Tutaj wstawić zrzut ekranu]
 
 Osobna zakładka dolnej nawigacji dzieli cele na sekcje „Inwestycje”, „Poduszka finansowa” i „Cele zakupowe / dowolne”. W każdej sekcji cele są sortowane od wysokiego do niskiego priorytetu.
 
 ### Analiza
 
+[Tutaj wstawić zrzut ekranu]
+
 Ekran pokazuje łączną wartość celów, zebraną kwotę, procent całości, wykonanie miesiąca, największy cel, najlepiej realizowany cel i ocenę, czy użytkownik jest na dobrej drodze. Zawiera wykres miesięczny, długoterminowy oraz donut podziału celów według kategorii.
 
 ### Kalkulator
+
+[Tutaj wstawić zrzut ekranu]
 
 Użytkownik podaje kwotę początkową, miesięczną wpłatę, liczbę lat i roczną stopę zwrotu. Wynik, suma wpłat i szacowany zysk aktualizują się automatycznie. Ekran wyraźnie informuje, że jest to symulacja edukacyjna.
 
 ### Dodawanie celu
 
+[Tutaj wstawić zrzut ekranu]
+
 Formularz zaczyna się od wyboru typu celu, a następnie pokazuje odpowiednie kategorie. Zawiera nazwę, kategorię, priorytet, kwotę docelową, zebraną kwotę, horyzont i opis. Dla typu zakupowego udostępnia skrót do kalkulatora wkładu własnego.
 
 ### Szczegóły celu
 
+[Tutaj wstawić zrzut ekranu]
+
 Widok pokazuje postęp długoterminowy, horyzont, miesięczny plan, wpłaty w miesiącu, pozostałą kwotę, status oraz osobny pasek miesięczny. Karta prognozy prezentuje średnią miesięczną wpłatę, szacowany czas dojścia do celu i ewentualny miesięczny brak. Niżej pozostaje historia wpłat z możliwością dodawania i usuwania.
 
 ### Poduszka finansowa
+
+[Tutaj wstawić zrzut ekranu]
 
 Użytkownik wpisuje miesięczne wydatki i zebraną kwotę oraz wybiera sytuację życiową i stabilność dochodu. Ekran na bieżąco pokazuje rekomendowaną liczbę miesięcy, cel, brakującą kwotę i procent. Kwoty muszą być większe od zera.
 
@@ -254,13 +270,15 @@ Przycisk zapisuje rekord w Room. Dopiero po zakończeniu operacji aplikacja wrac
 
 ### Plan inwestycyjny
 
+[Tutaj wstawić zrzut ekranu]
+
 Użytkownik wpisuje dodatnią miesięczną kwotę i liczbę lat od 1 do 60 oraz wybiera profil ryzyka. Ekran pokazuje procentowy podział, kwoty miesięczne i łączną sumę wpłat. Widoczna jest informacja, że wynik jest edukacyjną symulacją, a nie poradą inwestycyjną.
 
 Po zakończeniu transakcji Room aplikacja wraca do dashboardu, aktualizuje kartę planu, tworzy cele w sekcji „Twoje cele” i pokazuje Snackbar „Plan inwestycyjny zapisany”.
 
 ## 5. Miejsce na link do repozytorium
 
-Link do repozytorium: **[uzupełnij po opublikowaniu projektu]**
+Link do repozytorium: [tutaj wkleić link]
 
 ## 6. Materiały źródłowe
 

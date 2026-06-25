@@ -8,3 +8,8 @@
 captures/
 .externalNativeBuild/
 .cxx/
+.kotlin/
+.codex/
+.agents/
+work/
+outputs/
